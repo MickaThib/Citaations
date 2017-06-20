@@ -39,6 +39,21 @@
                  "id":7,
                  "auteur":"Le roi Loth",
                  "texte":"Vous êtes chevalier, je suis roi… Je vous demande de venir, vous venez et puis c’est tout ! Je vais pas non plus aller brûler un cierge sous prétexte que vous avez fait un tour de cheval !"
+                 },
+                 {
+                 "id":8,
+                 "auteur":"Le roi Loth",
+                 "texte":"Tempora mori, tempora mundis recorda. Voilà. Eh bien ça, par exemple, ça veut absolument rien dire, mais l’effet reste le même, et pourtant j’ai jamais foutu les pieds dans une salle de classe attention !"
+                 },
+                 {
+                 "id":9,
+                 "auteur":"Capito",
+                 "texte":"Alors, sans vouloir te commander, aurais-tu l'obligeance de bien vouloir te magner le cul."
+                 },
+                 {
+                 "id":10,
+                 "auteur":"Père Blaise",
+                 "texte":"Voilà ! C’est tout ce qu’y a ! Unisson, quarte, quinte et c’est marre ! Tous les autres intervalles, c’est de la merde ! Le prochain que je chope en train de siffler un intervalle païen, je fais un rapport au pape !"
                  }
                  ],
     "docinfo" :

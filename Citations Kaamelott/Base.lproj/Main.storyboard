@@ -25,7 +25,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Wa-TI-nBQ">
-                                <rect key="frame" x="98.5" y="452" width="178" height="51"/>
+                                <rect key="frame" x="98.5" y="482" width="178" height="51"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="178" id="Smq-9Q-p7X"/>
@@ -79,7 +79,7 @@
                             <constraint firstItem="kja-Vy-vam" firstAttribute="top" secondItem="pKP-nB-7bo" secondAttribute="bottom" constant="45" id="a4Q-pJ-Y4E"/>
                             <constraint firstItem="d6L-SU-Qj7" firstAttribute="top" secondItem="WUn-xO-xiV" secondAttribute="top" id="ad7-0K-U7q"/>
                             <constraint firstAttribute="trailing" secondItem="l1Y-K7-3X6" secondAttribute="trailing" id="bA1-dc-JG5"/>
-                            <constraint firstItem="agj-Bq-s8Q" firstAttribute="top" secondItem="5Wa-TI-nBQ" secondAttribute="bottom" constant="100" id="dye-iH-XyS"/>
+                            <constraint firstItem="agj-Bq-s8Q" firstAttribute="top" secondItem="5Wa-TI-nBQ" secondAttribute="bottom" constant="70" id="dye-iH-XyS"/>
                             <constraint firstItem="d6L-SU-Qj7" firstAttribute="leading" secondItem="WUn-xO-xiV" secondAttribute="leading" id="g63-Mx-B8v"/>
                             <constraint firstItem="kja-Vy-vam" firstAttribute="centerX" secondItem="WUn-xO-xiV" secondAttribute="centerX" id="qEi-Cf-Dk4"/>
                             <constraint firstAttribute="bottom" secondItem="d6L-SU-Qj7" secondAttribute="bottom" id="yNy-5v-dHs"/>
@@ -87,7 +87,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="rRe-wc-GoU">
-                        <barButtonItem key="rightBarButtonItem" image="Icone_Helmet" id="eNt-nE-uy7">
+                        <barButtonItem key="leftBarButtonItem" image="Icone_Helmet" id="eNt-nE-uy7">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             <connections>
                                 <segue destination="9GQ-rf-Ly1" kind="show" identifier="choisirPersonnage" id="h8P-OK-C5l"/>
