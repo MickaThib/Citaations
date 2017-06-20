@@ -10,11 +10,11 @@
 		CA0639CC1EF91903007E76E7 /* CitationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0639CB1EF91903007E76E7 /* CitationViewController.swift */; };
 		CA0639CE1EF9190D007E76E7 /* Citation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0639CD1EF9190D007E76E7 /* Citation.swift */; };
 		CA0639D01EF91914007E76E7 /* citationsKaamelott.json in Resources */ = {isa = PBXBuildFile; fileRef = CA0639CF1EF91914007E76E7 /* citationsKaamelott.json */; };
+		CA0639D31EF95864007E76E7 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0639D11EF95863007E76E7 /* Launch Screen.storyboard */; };
 		CACF65371EF4147F00BDA038 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACF65361EF4147F00BDA038 /* AppDelegate.swift */; };
 		CACF653C1EF4147F00BDA038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CACF653A1EF4147F00BDA038 /* Main.storyboard */; };
 		CACF653F1EF4147F00BDA038 /* Citations_Kaamelott.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CACF653D1EF4147F00BDA038 /* Citations_Kaamelott.xcdatamodeld */; };
 		CACF65411EF4147F00BDA038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CACF65401EF4147F00BDA038 /* Assets.xcassets */; };
-		CACF65441EF4147F00BDA038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CACF65421EF4147F00BDA038 /* LaunchScreen.storyboard */; };
 		CACF654C1EF4150900BDA038 /* AuteursTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACF654B1EF4150900BDA038 /* AuteursTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -22,12 +22,12 @@
 		CA0639CB1EF91903007E76E7 /* CitationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitationViewController.swift; sourceTree = "<group>"; };
 		CA0639CD1EF9190D007E76E7 /* Citation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Citation.swift; sourceTree = "<group>"; };
 		CA0639CF1EF91914007E76E7 /* citationsKaamelott.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = citationsKaamelott.json; sourceTree = "<group>"; };
+		CA0639D21EF95864007E76E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Launch Screen.storyboard"; sourceTree = "<group>"; };
 		CACF65331EF4147F00BDA038 /* Citations Kaamelott.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Citations Kaamelott.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CACF65361EF4147F00BDA038 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CACF653B1EF4147F00BDA038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CACF653E1EF4147F00BDA038 /* Citations_Kaamelott.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Citations_Kaamelott.xcdatamodel; sourceTree = "<group>"; };
 		CACF65401EF4147F00BDA038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CACF65431EF4147F00BDA038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CACF65451EF4147F00BDA038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CACF654B1EF4150900BDA038 /* AuteursTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuteursTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,9 +66,9 @@
 				CA0639CB1EF91903007E76E7 /* CitationViewController.swift */,
 				CACF654B1EF4150900BDA038 /* AuteursTableViewController.swift */,
 				CA0639CD1EF9190D007E76E7 /* Citation.swift */,
+				CA0639D11EF95863007E76E7 /* Launch Screen.storyboard */,
 				CACF653A1EF4147F00BDA038 /* Main.storyboard */,
 				CACF65401EF4147F00BDA038 /* Assets.xcassets */,
-				CACF65421EF4147F00BDA038 /* LaunchScreen.storyboard */,
 				CACF65451EF4147F00BDA038 /* Info.plist */,
 				CACF653D1EF4147F00BDA038 /* Citations_Kaamelott.xcdatamodeld */,
 				CA0639CF1EF91914007E76E7 /* citationsKaamelott.json */,
@@ -136,9 +136,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CACF65441EF4147F00BDA038 /* LaunchScreen.storyboard in Resources */,
 				CACF65411EF4147F00BDA038 /* Assets.xcassets in Resources */,
 				CACF653C1EF4147F00BDA038 /* Main.storyboard in Resources */,
+				CA0639D31EF95864007E76E7 /* Launch Screen.storyboard in Resources */,
 				CA0639D01EF91914007E76E7 /* citationsKaamelott.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,20 +161,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		CA0639D11EF95863007E76E7 /* Launch Screen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA0639D21EF95864007E76E7 /* Base */,
+			);
+			name = "Launch Screen.storyboard";
+			sourceTree = "<group>";
+		};
 		CACF653A1EF4147F00BDA038 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				CACF653B1EF4147F00BDA038 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CACF65421EF4147F00BDA038 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CACF65431EF4147F00BDA038 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -279,6 +279,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 7NJ9S77LDZ;
 				INFOPLIST_FILE = "Citations Kaamelott/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -286,6 +287,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mickaelthibouret.Citaations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -293,6 +295,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 7NJ9S77LDZ;
 				INFOPLIST_FILE = "Citations Kaamelott/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -300,6 +303,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mickaelthibouret.Citaations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

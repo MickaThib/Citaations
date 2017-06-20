@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Citation-->
+        <!--Citation View Controller-->
         <scene sceneID="jBk-3f-3j4">
             <objects>
                 <viewController id="n2V-Jj-sIs" customClass="CitationViewController" customModule="Citations_Kaamelott" customModuleProvider="target" sceneMemberID="viewController">
@@ -21,6 +21,9 @@
                         <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="d6L-SU-Qj7">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Wa-TI-nBQ">
                                 <rect key="frame" x="98.5" y="452" width="178" height="51"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -36,22 +39,22 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MBS-nD-xMR">
-                                <rect key="frame" x="32.5" y="103.5" width="310" height="315"/>
+                                <rect key="frame" x="32.5" y="113.5" width="310" height="315"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="310" id="0Ww-JB-Pbu"/>
                                     <constraint firstAttribute="height" constant="315" id="nIY-YO-Dh5"/>
                                 </constraints>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Perceval" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kja-Vy-vam">
-                                <rect key="frame" x="32" y="45" width="310" height="33.5"/>
+                                <rect key="frame" x="32" y="45" width="310" height="43.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="310" id="pTw-7k-PFz"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="28"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -69,18 +72,22 @@
                         <color key="backgroundColor" white="0.050000000000000003" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="l1Y-K7-3X6" firstAttribute="top" secondItem="pKP-nB-7bo" secondAttribute="bottom" id="2F8-CA-9Fc"/>
+                            <constraint firstAttribute="trailing" secondItem="d6L-SU-Qj7" secondAttribute="trailing" id="Idj-RU-Usd"/>
                             <constraint firstItem="5Wa-TI-nBQ" firstAttribute="centerX" secondItem="WUn-xO-xiV" secondAttribute="centerX" id="R1A-g4-sob"/>
                             <constraint firstItem="l1Y-K7-3X6" firstAttribute="leading" secondItem="WUn-xO-xiV" secondAttribute="leading" id="S0o-jV-hoE"/>
                             <constraint firstItem="MBS-nD-xMR" firstAttribute="top" secondItem="kja-Vy-vam" secondAttribute="bottom" constant="25" id="Zde-SQ-KbD"/>
                             <constraint firstItem="kja-Vy-vam" firstAttribute="top" secondItem="pKP-nB-7bo" secondAttribute="bottom" constant="45" id="a4Q-pJ-Y4E"/>
+                            <constraint firstItem="d6L-SU-Qj7" firstAttribute="top" secondItem="WUn-xO-xiV" secondAttribute="top" id="ad7-0K-U7q"/>
                             <constraint firstAttribute="trailing" secondItem="l1Y-K7-3X6" secondAttribute="trailing" id="bA1-dc-JG5"/>
                             <constraint firstItem="agj-Bq-s8Q" firstAttribute="top" secondItem="5Wa-TI-nBQ" secondAttribute="bottom" constant="100" id="dye-iH-XyS"/>
+                            <constraint firstItem="d6L-SU-Qj7" firstAttribute="leading" secondItem="WUn-xO-xiV" secondAttribute="leading" id="g63-Mx-B8v"/>
                             <constraint firstItem="kja-Vy-vam" firstAttribute="centerX" secondItem="WUn-xO-xiV" secondAttribute="centerX" id="qEi-Cf-Dk4"/>
+                            <constraint firstAttribute="bottom" secondItem="d6L-SU-Qj7" secondAttribute="bottom" id="yNy-5v-dHs"/>
                             <constraint firstItem="MBS-nD-xMR" firstAttribute="centerX" secondItem="WUn-xO-xiV" secondAttribute="centerX" id="yyS-EM-niU"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Citation" id="rRe-wc-GoU">
-                        <barButtonItem key="rightBarButtonItem" title="Personnage" id="eNt-nE-uy7">
+                    <navigationItem key="navigationItem" id="rRe-wc-GoU">
+                        <barButtonItem key="rightBarButtonItem" image="Icone_Helmet" id="eNt-nE-uy7">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             <connections>
                                 <segue destination="9GQ-rf-Ly1" kind="show" identifier="choisirPersonnage" id="h8P-OK-C5l"/>
@@ -90,6 +97,7 @@
                     <connections>
                         <outlet property="CitationTextView" destination="MBS-nD-xMR" id="QHn-ro-Wms"/>
                         <outlet property="PersonnageLabel" destination="kja-Vy-vam" id="w1e-Zz-2ac"/>
+                        <outlet property="citationAleatoireBtn" destination="5Wa-TI-nBQ" id="9FZ-OO-MS4"/>
                         <outlet property="personnageSelectedLabel" destination="l1Y-K7-3X6" id="rbX-FP-xkW"/>
                     </connections>
                 </viewController>
@@ -97,7 +105,7 @@
             </objects>
             <point key="canvasLocation" x="924" y="160.56971514242881"/>
         </scene>
-        <!--Personnage-->
+        <!--Trier par personnage-->
         <scene sceneID="tzm-bD-njg">
             <objects>
                 <tableViewController id="9GQ-rf-Ly1" customClass="AuteursTableViewController" customModule="Citations_Kaamelott" customModuleProvider="target" sceneMemberID="viewController">
@@ -121,7 +129,7 @@
                             <outlet property="delegate" destination="9GQ-rf-Ly1" id="LKz-fU-JxU"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Personnage" id="nyJ-IX-c6s"/>
+                    <navigationItem key="navigationItem" title="Trier par personnage" id="nyJ-IX-c6s"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IVO-1o-vpR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -132,7 +140,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1L2-sM-F7L" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" barStyle="black" translucent="NO" id="CSI-f0-GBf">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" translucent="NO" id="CSI-f0-GBf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="titleTextAttributes">
@@ -149,4 +157,8 @@
             <point key="canvasLocation" x="-15.199999999999999" y="160.56971514242881"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Icone_Helmet" width="25" height="25"/>
+        <image name="background" width="410" height="728"/>
+    </resources>
 </document>

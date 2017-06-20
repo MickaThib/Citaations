@@ -18,6 +18,7 @@ class CitationViewController: UIViewController, dataFromAuteursTableViewDelegate
     @IBOutlet weak var PersonnageLabel: UILabel!
     @IBOutlet weak var CitationTextView: UITextView!
     @IBOutlet weak var personnageSelectedLabel: UILabel!
+    @IBOutlet weak var citationAleatoireBtn: UIButton!
     
     // Version de la BD locale
     var versionActuelle:Double = 0.0
@@ -44,6 +45,8 @@ class CitationViewController: UIViewController, dataFromAuteursTableViewDelegate
         enregistrerCitations()
         
         // Configure écran accueil
+        citationAleatoireBtn.layer.borderColor = UIColor.white.cgColor
+        citationAleatoireBtn.layer.borderWidth = 0.5
         PersonnageLabel.text = "Citations de Kaamelott"
         CitationTextView.text = "Tapez sur le bouton \"Citation aléatoire\" pour obtenir une citation extraite de l'univers de Kaamelott."
     }
