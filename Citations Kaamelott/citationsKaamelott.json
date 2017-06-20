@@ -1,0 +1,49 @@
+{
+    "citations":[
+                 {
+                 "id":0,
+                 "auteur":"Perceval",
+                 "texte":"C'est pas faux."
+                 },
+                 {
+                 "id":1,
+                 "auteur":"Arthur",
+                 "texte":"Je suis chef de guerre, moi. Je ne suis pas là pour agiter des drapeaux et jouer de la trompette."
+                 },
+                 {
+                 "id":2,
+                 "auteur":"Léodagan",
+                 "texte":"Moi je réponds merde, en principe ça colle avec tout."
+                 },
+                 {
+                 "id":3,
+                 "auteur":"Le maître d'armes",
+                 "texte":"Je ne mange pas de graines !"
+                 },
+                 {
+                 "id":4,
+                 "auteur":"Le maître d'armes",
+                 "texte":"Je me suis fait tatouer \"J'aime le raisin de table\" sur la fesse droite !"
+                 },
+                 {
+                 "id":5,
+                 "auteur":"Léodagan",
+                 "texte":"Heureusement qu'on ne s'est pas fait construire un buffet à vaisselle."
+                 },
+                 {
+                 "id":6,
+                 "auteur":"Caradoc",
+                 "texte":"Le gras, c'est la vie !"
+                 },
+                 {
+                 "id":7,
+                 "auteur":"Le roi Loth",
+                 "texte":"Vous êtes chevalier, je suis roi… Je vous demande de venir, vous venez et puis c’est tout ! Je vais pas non plus aller brûler un cierge sous prétexte que vous avez fait un tour de cheval !"
+                 }
+                 ],
+    "docinfo" :
+    {
+        "version":1.0,
+        "auteur":"Mickael Thibouret"
+    }
+}
